@@ -7,6 +7,8 @@ coloque nas sessões indicadas*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
+   --cor-de-fundo-sobre:  #EAF2FD;
+
 }
 
 body {
@@ -40,21 +42,21 @@ https://en.bem.info/methodology/quick-start/*/
 
 /* Container */
 .all{
-    
+    width: 100%;
+    margin: 0 auto;
 }
 
 
 /*Sessão Menu*/
 section.menu{
-    width: 100%;
+    margin:0 auto;
+    width: 80%;
     background-color: var(--cor-de-fundo);
-    position: fixed;
     height: Hug (88px)px;
     display: flex;
     align-items: center;
     width: Fixed (1,136px)px;
     padding: 32px 0px 32px 0px;
-    justify: space-between;
     opacity: 0px;
     justify-content: space-between;
 }
@@ -80,15 +82,62 @@ section.menu ul{
 
 /*Sessão Title*/
 section.title{
+    width: 80%;
+    margin:0 auto
+}
+section.title div.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
 
+section.title  .title__network{
+    display: flex;
+    padding: 0;
+    gap:32px
+}
+section.title .title__bio{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 61.05px;
+}
+section.title .title__subsection{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.83px;
 }
 
 /*Sessão About*/
 
 section.about{
-
+    width: Fill (1,440px)px;
+    height: Hug (383px)px;
+    gap: 10px;
+    opacity: 0px;
+    padding: 64px 0;
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo-sobre);
 }
-
+section.about .about__container{
+    margin:0 auto;
+    width: 80%;
+    width: Fixed (1,136px)px;
+    height: Hug (255px)px;
+    gap: 16px;
+    opacity: 0px;
+    line-height: 19px;
+}
+section.about .about__title{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+}
+section.about .about__paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: justify;
+}
 /*Sessão Hobbies*/
 
 section.hobbies{
