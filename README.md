@@ -25,10 +25,8 @@ O progresso e o gerenciamento de tarefas estão sendo realizados no [Trello](htt
 |       ├── script.js
 ├── desafio-2/
 │   ├── ...
-├── portifolio/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
+├── desafio-3/
+|
 └── README.md
 ```
 
